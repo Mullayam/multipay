@@ -1,0 +1,24 @@
+{
+  "name": "flexipay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b ./tsconfig-esm.json ./tsconfig-cjs.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.5.5",
+    "colorette": "^2.0.20",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "razorpay": "^2.9.4"
+  },
+  "devDependencies": {
+    "axios": "^1.7.7",
+    "paytm-pg-node-sdk": "^1.0.4"
+  }
+}
